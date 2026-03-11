@@ -1,0 +1,4 @@
+from datetime import date 
+a= date(2004,7,9)
+b= date(2026,3,11)
+print("days: ",b-a)
