@@ -1,0 +1,7 @@
+import calendar
+b= calendar.calendar(2026)
+print(b)
+
+import calendar
+b= calendar.month(2026,3)
+print(b)
