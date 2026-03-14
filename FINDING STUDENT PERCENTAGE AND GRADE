@@ -1,0 +1,16 @@
+name=['dee','vith','jai','suva']
+marks=[[90,60,70],[58,87,96],[87,90,45],[67,89,90]]
+for i in range(len(name)):
+    total = sum(marks[i])
+    percentage = total / len(marks[i])
+
+    if percentage >= 90:
+        grade = "S"
+    elif percentage >= 60:
+        grade = "A"
+    elif percentage >= 41:
+        grade = "B"
+    else:
+        grade = "F"
+
+    print(name[i], "-", percentage, "-", grade)
