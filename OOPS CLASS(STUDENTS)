@@ -1,0 +1,23 @@
+class student:
+    dept ="CSE"
+    def set_dim(self,name,marks):
+        self.name=name
+        self.marks=marks
+        self.p=0
+    def per(self):
+        self.p=sum(self.marks)//3
+    def display(self):
+        self.per()
+        print("1.name: ",self.name)
+        print("2.score: ",self.p)
+        print("3.dept:",student.dept)
+    
+gfhf=student()
+seetha=student()
+raks=student()
+gfhf.set_dim("UK",[30,38,50])
+seetha.set_dim("Thdg",[78,68,98])
+raks.set_dim("gf",[56,78,40])
+gfhf.display()
+seetha.display()
+raks.display()        
