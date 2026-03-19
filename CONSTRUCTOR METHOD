@@ -1,0 +1,11 @@
+class rect:
+    def __init__(self,a,b):
+        self.l=a 
+        self.b=b
+    def display(self):
+        print (self.l*self.b)
+        
+a=rect(40,70)
+b=rect(67,78)
+a.display()
+b.display()   
